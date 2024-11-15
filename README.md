@@ -9,3 +9,5 @@ Trong bài tập này, nhóm chúng tôi đã triển khai thuật toán **RSA**
 - **RSA**: Mã hóa và giải mã dữ liệu bằng cách sử dụng cặp khóa công khai và khóa riêng biệt.
 - **Hashing**: Xác thực tính toàn vẹn của dữ liệu bằng cách tạo và kiểm tra mã băm.
 - **Giao diện dễ sử dụng**: Đơn giản, dễ hiểu và dễ dàng tích hợp vào các ứng dụng bảo mật khác.
+
+![Hình minh họa về RSA](https://github.com/sjsjsmsmsj/RSA/blob/main/hinh.png)
