@@ -2,6 +2,8 @@
 
 ## 🚀 Overview
 
+![RSA Diagram](images/rsa-diagram.png)
+
 Welcome to the **RSA Digital Signature** project! This project implements a **digital signature** system using the **RSA cryptography algorithm**, which ensures the integrity and authenticity of digital messages. The application allows you to:
 
 - **Generate RSA Key Pairs**: Create a public and private key pair using prime numbers.
