@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-![RSA Diagram](images/rsa-diagram.png)
+![RSA Diagram](https://github.com/sjsjsmsmsj/RSA/blob/main/image.png)
 
 Welcome to the **RSA Digital Signature** project! This project implements a **digital signature** system using the **RSA cryptography algorithm**, which ensures the integrity and authenticity of digital messages. The application allows you to:
 
