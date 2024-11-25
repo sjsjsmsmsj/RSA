@@ -1,0 +1,100 @@
+/* Cấu hình chung cho body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container chính, căn giữa nội dung và thêm hiệu ứng bóng */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề chính */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #ff6347; /* Màu đỏ tươi */
+    margin-bottom: 30px;
+}
+
+/* Section chứa các chức năng */
+.section {
+    margin-bottom: 30px;
+    border-left: 5px solid #ff6347; /* Dải màu đỏ phía bên trái */
+    padding-left: 20px;
+}
+
+/* Input số, input file và textarea: Cải thiện kích thước, bo góc và thêm hiệu ứng focus */
+input[type="number"], input[type="file"], textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ff6347; /* Viền màu đỏ */
+    font-size: 16px;
+    background-color: #ffe4e1; /* Màu nền hồng nhạt */
+    transition: border-color 0.3s ease;
+}
+
+/* Thêm hiệu ứng focus cho input */
+input[type="number"]:focus, input[type="file"]:focus, textarea:focus {
+    border-color: #ff4500; /* Viền đỏ cam khi focus */
+    outline: none;
+}
+
+/* Nút button */
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff4500; /* Màu cam đỏ */
+    color: white;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Thêm hiệu ứng hover cho button */
+button:hover {
+    background-color: #ff6347; /* Màu đỏ khi hover */
+}
+
+/* Làm cho các nút disable trông không thể nhấn */
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Các ô textarea (hiển thị kết quả ký và xác thực) */
+textarea {
+    height: 150px;
+    resize: none;
+    background-color: #ffe4e1; /* Màu nền hồng nhạt */
+    font-family: monospace;
+    font-size: 16px;
+    border: 2px solid #ff6347; /* Viền màu đỏ */
+}
+
+/* Các label, input và textarea có khoảng cách giữa các phần tử */
+input, textarea {
+    margin-top: 10px;
+}
+
+/* Thêm hiệu ứng khi hover qua các section */
+.section:hover {
+    background-color: #fff5f5; /* Màu nền hồng sáng khi hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Thêm hiệu ứng cho các đoạn văn bản ở cuối trang */
+textarea:focus, input:focus {
+    background-color: #ffedcc; /* Màu vàng nhạt khi focus */
+}

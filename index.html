@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Digital Signature</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- <script src="scrip01.js" defer></script> -->
+</head>
+<body>
+    <div class="container">
+        <h1>RSA Digital Signature</h1>
+
+        <!-- Chức năng 1: Tạo khóa -->
+        <div class="section">
+            <h2>1. Generate RSA Keys</h2>
+            <input type="number" id="primeP" placeholder="Enter prime p" />
+            <input type="number" id="primeQ" placeholder="Enter prime q" />
+            <button id="generateKeys">Generate Keys</button>
+            <button id="generateRandomKeys">Generate Random Keys</button>
+            <div>
+                <textarea id="publicKey" placeholder="Public Key" readonly></textarea>
+                <textarea id="privateKey" placeholder="Private Key" readonly></textarea>
+            </div>
+        </div>
+
+        <!-- Chức năng 2: Ký văn bản -->
+        <div class="section">
+            <h2>2. Sign Document</h2>
+            <textarea id="messageToSign" placeholder="Enter message to sign:"></textarea>
+            <input type="file" id="fileToSign" />
+            <button id="signMessage">Sign Message</button>
+            <button id="showSignature">Show Signature</button>
+            <textarea id="signatureResult" placeholder="Signature result" readonly></textarea>
+        </div>
+
+        <!-- Section for verifying signature -->
+        <div class="section">
+            <h2>3. Verify Signature</h2>
+            <textarea id="messageToVerify" placeholder="Enter message to verify"></textarea>
+            <textarea id="signatureToVerify" placeholder="Enter signature to verify"></textarea>
+            <input type="file" id="fileToVerify" />
+            <button id="verifySignature">Verify Signature</button>
+            <textarea id="verificationResult" placeholder="Verification result" readonly></textarea>
+        </div>
+
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
+
+
